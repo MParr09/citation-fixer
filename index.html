@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Citation Fixer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Citation Fixer</h1>
+    <p>Fill in the info and pick a citation style:</p>
+    
+    <label>Author:</label>
+    <input id="author" type="text" placeholder="John Smith" />
+
+    <label>Title:</label>
+    <input id="title" type="text" placeholder="The Book Title" />
+
+    <label>Publisher:</label>
+    <input id="publisher" type="text" placeholder="Penguin Books" />
+
+    <label>Year:</label>
+    <input id="year" type="text" placeholder="2023" />
+
+    <label>Style:</label>
+    <select id="style">
+      <option value="apa">APA</option>
+      <option value="mla">MLA</option>
+    </select>
+
+    <button onclick="generateCitation()">Make My Citation</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+    
+    
+    <div style="text-align:center; margin-top: 40px;">
+      <a href="https://www.buymeacoffee.com/bigapple_dev" target="_blank">
+        <img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+          alt="Buy Me A Coffee"
+          style="height: 50px; width: 180px;"
+        />
+      </a>
+    </div>
+    
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
